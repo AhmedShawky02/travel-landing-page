@@ -1,0 +1,147 @@
+.ReviewsSection {
+    max-width: 1600px;
+    margin: auto;
+    overflow: hidden;
+    margin-top: 100px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    padding: 40px 100px;
+    transition: 0.3s ease-out;
+}
+
+.header {
+    text-align: center;
+}
+
+.header p {
+    color: var(--color-description);
+    font-size: 20px;
+    font-family: var(--font-sans);
+    font-weight: 600;
+}
+
+.header h2 {
+    padding: 15px;
+    text-align: start;
+    text-transform: capitalize;
+    color: var(--color-h2);
+    font-family: var(--font-Volkhov);
+    font-size: 50px;
+}
+
+.user {
+    width: 500px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 14px rgba(0, 0, 0, 0.1);
+    font-family: var(--font-sans);
+    transition: 0.3s ease-out;
+}
+
+.comment {
+    color: var(--color-comment);
+    line-height: 30px;
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+
+.name {
+    color: var(--color-description);
+    font-weight: 700;
+    font-size: 17px;
+}
+
+.city {
+    font-size: 15px;
+    color: var(--color-description);
+}
+
+.image {
+    width: 80px;
+    position: absolute;
+    left: 0px;
+    top: 0;
+    transition: 0.3s ease-out;
+}
+
+/* Padding */
+@media screen and (max-width: 1110px) {
+    .container {
+        padding: 40px 50px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .container {
+        padding: 40px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .container {
+        padding: 20px;
+        padding-top: 40px;
+    }
+}
+
+/* Style */
+
+@media screen and (max-width: 1300px) {
+    .header h2 {
+        padding: 15px;
+        font-size: 40px;
+    }
+
+    .user {
+        width: 400px;
+    }
+
+}
+
+
+@media screen and (max-width: 980px) {
+    .container {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .image {
+        width: 70px;
+    }
+
+    .ReviewsSection {
+        margin-top: 30px;
+    }
+
+    .header h2 {
+        text-align: center;
+    }
+
+    .user {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .user {
+        width: 330px;
+    }
+}
+
+@media screen and (max-width: 465px) {
+    .user {
+        width: 300px;
+    }
+
+    .image {
+        width: 65px;
+        top: 200px;
+        left: 250px;
+    }
+}

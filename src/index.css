@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&family=Poppins:wght@300;400;600;700&family=Volkhov:wght@400;700&display=swap');
+
+* {
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body,
+html {
+    overflow-x: hidden;
+}
+
+
+:root {
+    --font-sans: 'Poppins', 'Open Sans', sans-serif;
+    --font-Volkhov: 'Volkhov', serif;
+
+    --color-h1: #181E4B;
+    --color-h2: #14183E;
+    --color-title: #1E1D4C;
+    --color-description: #5E6282;
+    --color-playBtn: #686D77;
+    --color-black: #080809;
+    --color-cartSubtitle: #84829A;
+    --color-percentage: #8A79DF;
+    --color-comment: #4E4E73;
+    --color-p: #DF6951;
+    --color-ptn: #F1A501;
+}
