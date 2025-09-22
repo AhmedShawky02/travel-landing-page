@@ -1,69 +1,38 @@
-# React + TypeScript + Vite
+# 🌍 Travel Landing Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A fully responsive **Travel & Booking Landing Page** built with **React (TypeScript)** and custom **CSS**.  
+This project focuses on a clean UI, smooth layout, and a mobile-first responsive design.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
+- **Hero Section** – Navigation bar, headline, CTAs, and hero image.
+- **Services Section** – Showcases weather, flights, events, and customization services.
+- **Top Destinations** – Displays popular trips with price, duration, and images.
+- **Booking Steps** – Simple 3-step booking process.
+- **Trip Card Section** – Ongoing trips with participants and progress indicator.
+- **Testimonials** – Customer feedback section.
+- **Newsletter** – Email subscription box.
+- **Footer** – Company links, FAQs, affiliates, and app download area.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## 🛠️ Tech Stack
+- **React (TypeScript)** – Component-based development.
+- **CSS** – Custom styling with responsive design.
+- **Responsive Layout** – Fully optimized for desktop, tablet, and mobile.
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+---
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+## 📸 Screenshots
+| Desktop View | Mobile View |
+|-------------|-------------|
+| <img width="2882" height="7914" alt="pc_Image" src="https://github.com/user-attachments/assets/08856b8a-e94c-4b62-93ba-b8b5c2f75aeb" /> | <img width="1010" height="15518" alt="mobile_Image" src="https://github.com/user-attachments/assets/60f01cc9-f136-42ee-b666-5e0508054aa2" /> |
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+---
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+## 📦 Installation & Setup
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/travel-landing-page.git
