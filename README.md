@@ -38,3 +38,5 @@ Designed with a clean UI, smooth layout, and mobile-first responsive design to e
 <img width="1133" height="567" alt="Screenshot 2025-09-22 203233" src="https://github.com/user-attachments/assets/fdc77c9f-1c3f-43ea-9e70-0e2b95b0874b" />
 
 ---
+
+### 🖌️ Design inspired by Mikey (Figma Community)
